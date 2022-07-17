@@ -1,0 +1,222 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #8D8D8D;
+}
+
+.btn{
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #fa8080, #FF5959);
+    padding: 15px 30px;  
+    margin-top: 30px;  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.section-sub-title{
+    width: 45%;
+    color: gray;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.mt-50{
+    margin-top: 100px;
+}
+
+hr{
+    color: #e7e5e5;
+
+}
+
+.main{
+    display: flex;
+    width: 85%;
+    margin-bottom: 40px;
+}
+.clearfix{
+    width: 50%;
+    margin: 8px;
+    padding: 35px 10px;
+}
+/* header section start */
+.header{
+    background-image: url('../images/donation1.jpg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+    padding: 165px 270px;
+    text-align: center;
+}
+.header h1{
+    color: white;    
+    font-size: 55px;
+    font-weight: 700;    
+}
+.header p{
+    width: 650px;
+    color: white;
+    font-size: 16px;    
+}
+/* header section start */
+
+/* donate amount section start */
+.donate-amount{
+    
+}
+.containter{
+    display: flex;
+    width: 60%;
+    margin-bottom: 40px;
+}
+.amount-item{
+    width: 15%;
+    margin: 8px;
+    padding: 35px 10px;
+    border-radius: 5px;
+    background-color: #FAFAFA;    
+}
+
+#second-amount-item{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.amount-item h1{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    font-weight: 700;
+}
+.form{
+    width: 60%;
+    text-align: center;
+}
+.form .input-text{
+    border: none;
+    padding: 10px 0;
+    color: #e7e5e5;
+    font-size: 20px;
+}
+.form input{
+    color: red;
+}
+/* donate amount section start */
+
+/* donate plan section start */
+.donate-plan{
+    
+}
+
+.plan-item{
+    width:33.33%;
+    margin: 10px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    background-color: #FAFAFA;    
+}
+.plan-item h2{
+    margin: 15px 0;
+}
+
+#first-plan{
+    background-color: #EDF5F6;
+}
+#second-plan{
+    background-color: #FFEEEE;
+}
+#third-plan{
+    background-color: #FFF4D6;
+}
+/* donate plan section end */
+
+/* donate first blog section start */
+.donate-first-blog{
+    display: flex;
+    width: 75%;
+    margin-bottom: 40px;
+}
+
+.blog-content{
+    margin-top: 50px;
+}
+.blog-content h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.blog-content p{
+    padding: 10px 15px 10px 0px;
+}
+.blog-image img{
+    width: 90%;  
+    height: 450px;
+    border-radius: 10px;
+    float: right;
+}
+/* donate first blog section end */
+
+/* donate second blog section start */
+#donate-second-blog img{
+    float: left;
+}
+/* donate second blog section end */
+
+/* subscribe section start */
+.subscribe{
+    /* width: 50%; */
+}
+.my-form{
+    width: 50%;
+    background-color: #FFF4D6;
+}
+.form-group{
+    padding: 70px 180px;    
+}
+.row{
+    background: #FF5959;
+    border-radius: 5px;
+}
+.form-control{    
+    padding: 15px;
+    border: none;    
+    background-color: #D9D9D9;
+}
+.form-group label{
+    padding: 15px;
+    color: white;
+}
+/* subscribe section end */
+
+/* footer section start */
+.footer{    
+    width: 100%;
+    text-align: center;
+    background-color: #0B0D17;
+}
+.footer h1{
+    color: #FF5959;
+    padding: 40px 0 20px 0;
+}
+.footer p{
+    padding-bottom: 40px;
+}
+/* footer section end */
